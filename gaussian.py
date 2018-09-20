@@ -34,12 +34,13 @@ for i in range(0, nit):
 
     # save the fitted center of the gaussian
 	result[i] = popt[1]
-	
+	'''
 	plt.plot(x,y,'or')
 	plt.plot(x,z)
 	plt.draw()
 	raw_input(':')
 	plt.clf()
+	'''
 	
 # plot a histogram of fitted centers of the gaussian
 plt.hist(result,bins=20)
